@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gerador de Border-Radius</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        
+    </head>
+    <body>
+        <div class="container">
+            <div class="box">
+                <div class="screen">
+                    <div class="shape"></div>
+                </div>
+                <br>
+                <div class="code-content">
+                    <span class="code">
+                        border-radius: <span class="code-value">0px 0px 0px 0px</span>
+                    </span>
+                </div>
+                <div class="controls clear-fix">
+                    <div class="float-left">
+                        <label>Top</label>
+                        <br>
+                        <input class="range top" type="range">
+                        <br>
+                        <label>Right</label>
+                        <br>
+                        <input class="range right" type="range"></input>
+                    </div>
+                    <br>
+                    <div id="dir" class="float-right">
+                        <label>Bottom</label>
+                        <br>
+                        <input class="range bottom" type="range">
+                        <br>
+                        <label>Left</label>
+                        <br>
+                        <input class="range left" type="range"></input>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="app.js"></script>
+    </body>
+</html>
